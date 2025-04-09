@@ -1,0 +1,8 @@
+<form (ngSubmit)="submit()" [formGroup]="taskForm" class="task-form">
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Nova tarefa</mat-label>
+      <input matInput formControlName="title" placeholder="Digite uma tarefa">
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">Adicionar</button>
+  </form>
+  
